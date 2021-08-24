@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="695.0" prefWidth="976.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.CreatContact_Controller">
+   <children>
+      <Button fx:id="cancel" layoutX="14.0" layoutY="635.0" mnemonicParsing="false" onAction="#setCancel" text="Cancel" />
+      <Button fx:id="save" layoutX="921.0" layoutY="635.0" mnemonicParsing="false" onAction="#setSave" text="Save" />
+      <VBox fx:id="vBox" prefHeight="615.0" prefWidth="976.0" />
+      <Label layoutX="288.0" layoutY="632.0" text="You must press enter between every field">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
